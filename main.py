@@ -1,28 +1,25 @@
-# print('hello')
+print('hello')
 
 
+def test():
+    global x
+    # global x
+    print(" x is " , x)
+    pass
 
-# def test():
-#     global x
-#     # global x
-#     print(" x is " , x)
-#     pass
+    # x = 20
+    x = 'hello world'
+    print(" change x to " , x)
 
-#     # x = 20
-#     x = 'hello world'
-#     print(" change x to " , x)
+def tt():
+    print(x)
 
-# def tt():
-#     print(x)
-
-# x = 12
+x = 12
 
 
-# # test()
-# # print(" x is " , x)
-
+print("YSL kjdlncj hjhjh j")
 # test()
-# tt()
+# print(" x is " , x)
 
-print('liu %s ning is born in %d' % ("jia", 1994))
-print('jia',"ning")
+test()
+tt()
