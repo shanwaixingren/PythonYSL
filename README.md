@@ -14,6 +14,7 @@ This is a learning project.
 ### open 函数使用
 
 ```
+
 open(file, mode='r', buffering=-1, encoding=None, errors=None, newline=None, closefd=True, opener=None)
 
 Character Meaning
@@ -49,9 +50,9 @@ threading.BoundedSemaphore
 ```
 
 那么什么是上下文管理器：
-- 这个管理器就是在对象内实现了两个方法：__enter__() 和__exit__()
-- __enter__()方法会在with的代码块执行之前执行，__exit__（）会在代码块执行结束后执行。
-- __exit__()方法内会自带当前对象的清理方法。
+- 这个管理器就是在对象内实现了两个方法：`__enter__()` 和`__exit__()`
+- `__enter__()`方法会在with的代码块执行之前执行，`__exit__（）`会在代码块执行结束后执行。
+- `__exit__()`方法内会自带当前对象的清理方法。
 
 ```py
 # -*- coding: utf-8 -*-
